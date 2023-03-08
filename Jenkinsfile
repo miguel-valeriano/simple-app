@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('install') {
       steps {
-        sh 'sudo apt install awscli'
+        sh 'echo "install step"'
       }
     }
 
